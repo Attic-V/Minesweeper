@@ -1,6 +1,6 @@
 # Minesweeper
 A simple minesweeper game
-> [Play](https://attic-v.github.io/Minesweeper/) Now
+> [Play Now](https://attic-v.github.io/Minesweeper/)
 
 ## How to play
 * Left click to reveal a tile
