@@ -1,7 +1,6 @@
 # Minesweeper
-A simple minesweeper game
+> A simple minesweeper game
 
 ## How to play
-> Left click to reveal a tile
-
-> Right click to mark a tile with a flag
+Left click to reveal a tile
+Right click to mark a tile with a flag
