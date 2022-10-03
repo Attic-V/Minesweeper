@@ -1,5 +1,6 @@
 # Minesweeper
 A simple minesweeper game
+
 [Play](https://attic-v.github.io/Minesweeper/) Now
 
 ## How to play
