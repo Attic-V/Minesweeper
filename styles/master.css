@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bolder;
+	color: #EEE;
+	user-select: none;
+}
+
+body {
+	background-color: #121F12;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#game-content {
+	padding: 1.6vmin;
+	background-color: #6B6;
+	border-radius: 1vmin;
+}
+
+#game-menu {
+	background-color: #161;
+	height: 10vmin;
+}
+
+#game-board {
+	display: grid;
+	grid-template-rows: repeat(20, 4vmin);
+	grid-template-columns: repeat(40, 4vmin);
+}
+
+.tile {
+	font-size: 3vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.6vmin none #383;
+	transition: border 2s ease;
+}
+
+.tile.marked {
+	border-color: #833;
+}
+
+.tile.revealed {
+	border-color: #338;
+}
+
+.tile.mine {
+	border-color: #883;
+}
+
+.tile.marked.safe {
+	border-color: #388;
+}
+
+.tile.free.revealed {
+	border-color: #838;
+}
+
+.tile.light:hover {
+	background-color: #AAA;
+}
+
+.tile.dark:hover {
+	background-color: #999;
+}
+
+.tile.light {
+	background-color: #4A4;
+}
+
+.tile.dark {
+	background-color: #494;
+}
+
+.tile.mine.light {
+	background-color: #AA4;
+}
+
+.tile.mine.dark {
+	background-color: #994;
+}
+
+.tile.marked.safe.light {
+	background-color: #4AA;
+}
+
+.tile.marked.safe.dark {
+	background-color: #499;
+}
+
+.tile.marked.light {
+	background-color: #A44;
+}
+
+.tile.marked.dark {
+	background-color: #944;
+}
+
+.tile.revealed.light {
+	background-color: #44A;
+}
+
+.tile.revealed.dark {
+	background-color: #449;
+}
+
+.tile.free.revealed.light {
+	background-color: #A4A;
+}
+
+.tile.free.revealed.dark {
+	background-color: #949;
+}
+
+#game-menu {
+	font-size: 6vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#game-menu > span {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#game-menu > span > span {
+	padding: 0.8vmin;
+}
