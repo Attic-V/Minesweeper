@@ -1,5 +1,5 @@
 # Minesweeper
-> A simple minesweeper game
+A simple minesweeper game
 
 ## How to play
 * Left click to reveal a tile
